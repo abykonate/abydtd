@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!DOCTYPE KON [
+<!ELEMENT KON (adresse)>
+<!ELEMENT adresse (personne,contact,habitation)>
+<!ELEMENT personne (nom,prenom)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT contact (email,telephone)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT habitation (commune,quatier)>
+<!ELEMENT commune (#PCDATA)>
+<!ELEMENT quatier (#PCDATA)>
+]>
+<!--konate abiba recupration d'information sur une personne-->
+<KON>
+	<adresse>
+		<personne>
+			<nom>konate</nom><prenom>abiba</prenom>
+		</personne>
+		<contact>
+			<email>abykonate16@gmail.com</email><telephone>87680270</telephone>
+		</contact>
+		<habitation>
+			<commune>abobo</commune><quatier>anador</quatier>
+		</habitation>
+	</adresse>
+</KON>
